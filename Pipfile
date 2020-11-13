@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+requests = "==2.24.0"
+Django = "==3.1.2"
+python-dateutil = "*"
+psycopg2 = "*"
+asgiref = "==3.2.10"
+certifi = "==2020.6.20"
+chardet = "==3.0.4"
+djangorestframework = "==3.12.1"
+idna = "==2.10"
+pytz = "==2020.1"
+sqlparse = "==0.4.1"
+urllib3 = "==1.25.11"
+marshmallow = "*"
+
+[requires]
+python_version = "3.8"
